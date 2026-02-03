@@ -6,3 +6,6 @@ amogus = 10
 
 print("Soy andres y estoy editando el archivo de danielinho")
 print("daniel no ha hecho nada")
+
+def suma(a, b):
+    return a + b
