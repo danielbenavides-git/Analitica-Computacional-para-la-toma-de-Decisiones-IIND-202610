@@ -21,9 +21,9 @@ server = app.server
 # en este primer ejemplo usamos unos datos de prueba que creamos directamente
 # en un dataframe de pandas 
 df = pd.DataFrame({
-    "Fiebre": ["Moderada", "Leve", "Alta", "Moderada", "Leve", "Alta"],
-    "Casos": [4, 1, 2, 2, 4, 5],
-    "Diagnóstico": ["Positivo", "Positivo", "Positivo", "Negativo", "Negativo", "Negativo"]
+    "Fiebre": ["Extrema","Moderada", "Leve", "Alta", "Extrema", "Moderada", "Leve", "Alta"],
+    "Casos": [4, 1, 2, 2, 4, 5, 3, 6],
+    "Diagnóstico": ["Positivo", "Positivo", "Positivo", "Positivo", "Negativo", "Negativo", "Negativo", "Negativo"]
 })
 
 fig = px.bar(df, x="Fiebre", y="Casos", color="Diagnóstico", barmode="group")
@@ -52,4 +52,4 @@ app.layout = html.Div(children=[
 )
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
