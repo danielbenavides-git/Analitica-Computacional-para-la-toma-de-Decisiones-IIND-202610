@@ -8,7 +8,6 @@ import pandas as pd
 df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv')
 print(df.columns)
 
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
@@ -25,7 +24,6 @@ app.layout = html.Div([
         step=None
     )
 ])
-
 
 @app.callback(
     Output('graph-with-slider', 'figure'),
@@ -48,6 +46,5 @@ def update_figure(selected_year):
 
     return fig
 
-
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
