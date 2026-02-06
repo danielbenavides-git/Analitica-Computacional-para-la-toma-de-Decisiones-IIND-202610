@@ -18,14 +18,12 @@ app.layout = html.Div(
     ]
 )
 
-
 @app.callback(
     Output(component_id='my-output', component_property='children'),
     [Input(component_id='my-input', component_property='value')]
 )
 def update_output_div(input_value):
-    return 'Output: {}'.format(input_value)
-
+    return 'Output: {} modificado para la entrega por Daniel y Juanita'.format(input_value)
 
 if __name__ == '__main__':
     app.run(debug=True)
