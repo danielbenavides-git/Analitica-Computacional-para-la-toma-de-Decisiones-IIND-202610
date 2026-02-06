@@ -80,6 +80,7 @@ keys/
 Thumbs.db
 *.tmp
 *.log
+*.pem
 
 # =====================
 # Build Artifacts
