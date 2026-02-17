@@ -1,6 +1,6 @@
 from socket import *
 
-servidorPuerto = 12000
+servidorPuerto = 12001
 servidorSocket = socket(AF_INET,SOCK_STREAM)
 servidorSocket.bind(('',servidorPuerto))
 servidorSocket.listen(1)
