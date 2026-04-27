@@ -36,6 +36,7 @@ datasets/
 
 # Large data file types
 *.csv
+*.xlsx
 *.tsv
 *.parquet
 *.h5

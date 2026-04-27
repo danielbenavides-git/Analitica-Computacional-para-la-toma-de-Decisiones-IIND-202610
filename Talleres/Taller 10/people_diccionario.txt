@@ -1,0 +1,71 @@
+Age: edad
+Attrition: 1 si se retiró de la compañía, 0 dlc
+BusinessTravel: frecuencia de viajes de trabajo
+DailyRate: costo por día
+Department: departamento
+DistanceFromHome: distancia de casa a oficina
+Education
+1 'Below College'
+2 'College'
+3 'Bachelor'
+4 'Master'
+5 'Doctor'
+
+EducationField: campo según educación
+EmployeeCount: número de empleados con estas características
+EmployeeNumber: ID
+EnvironmentSatisfaction
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+Gender: género
+HourlyRate: costo por hora
+JobInvolvement         
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+JobLevel: categoría
+JobRole: rol
+JobSatisfaction
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+MaritalStatus: estado civil
+MonthlyIncome: ingresos mensuales (dólares)
+MonthlyRate: costo mensual
+NumCompaniesWorked: # empresas en las que ha trabajado
+Over18: 18 años o más
+OverTime: realiza tiempo extra
+PercentSalaryHike: % de último incremento salarial
+PerformanceRating: desempeño
+1 'Low'
+2 'Good'
+3 'Excellent'
+4 'Outstanding'
+
+RelationshipSatisfaction:  
+1 'Low'
+2 'Medium'
+3 'High'
+4 'Very High'
+
+StandardHours: # horas estándar
+StockOptionLevel: nivel de compensación con opciones sobre acciones
+TotalWorkingYears: # años de experiencia
+TrainingTimesLastYear: # entrenamientos último año
+WorkLifeBalance
+1 'Bad'
+2 'Good'
+3 'Better'
+4 'Best'
+
+YearsAtCompany: # años en la empresa
+YearsInCurrentRole: # años en rol actual
+YearsSinceLastPromotion: # años desde la última promoción
+YearsWithCurrManager: # años con jefe actual
