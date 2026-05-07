@@ -54,7 +54,7 @@ def run_mlflow(run_name="MLflow CE MNIST"):
     run = mlflow.active_run()
     # MLflow asigna un ID al experimento y a la corrida
     experimentID = run.info.experiment_id
-    runID = run.info.run_uuid
+    runID = run.info.run_id
     # reistro automáticos de las métricas de keras
     mlflow.keras.autolog()
     model = models.Sequential()
